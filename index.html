@@ -1,14 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome -->
+
+  <script src="https://kit.fontawesome.com/2bb09a7fe4.js" crossorigin="anonymous"></script>
+
+  <title>Honda-CBR</title>
 </head>
+
 <body>
-    <h1>honda cbr website</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
-    
+  <!--header section started-->
+  <header class="w-100 header-background">
+    <section class="container">
+      <div class="row mt-4">
+ <div class="col-lg-6 col-12 heading-part-margin text-light">
+          <p>Computer-controlled digital transistorized with electronic advance</p>
+          <h1 class="fw-bolder">Honda CBR 300R</h1>
+          <p>Explore an innovative line of quality products from American Honda Motor Company. Find the latest news and
+            information on Honda and Acura brand products.</p>
+
+          <!-- Button  modal -->
+          <button type="button" class="danger px-5 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Purchase
+          </button>
+
+          <!-- Modal part -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">Zambiana CBR Honda</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-primary">
+                  <p>You will get 25% discount if you purchae within 15 August,2021.
+                    PROMOCODE:programming-hero1
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Apply Promocode</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+        </div>
+
+        <!-- bike photo  -->
+
+        <div class="col-lg-6 col-12 bike-margin  ">
+          <img class="img-fluid" src="images/header-bike.png" alt="bike photo">
+        </div>
+
+      </div>
+
+      </div>
+
+    </section>
+  </header>
+
+  <main>
+    <!-- featured bike part -->
+
+    <section class="container my-5">
+      <div class="text-center">
+        <h1 class="fw-bolder">Fetured Bikes 2021</h1>
+        <p class="text-danger fw-bolder">Best bike collection</p>
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-3 col-12 my-5">
+            <img class="img-fluid grayscale-img" src="images/feature-bike.jpg" alt="bike-image">
+          </div>
+          <div class="col-lg-3 col-12 my-5">
+            <img class=" img-fluid" src="images/feature-bike.jpg" alt="bike-image">
+          </div>
+          <div class="col-lg-3 col-12 my-5">
+            <img class=" img-fluid grayscale-img" src="images/feature-bike.jpg" alt="bike-image">
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- happy clients part -->
+
+    <section class="container my-5">
+      <h1 class="text-center fw-bolder">Happy
+        <span class="text-warning">Clients says</span>
+      </h1>
+      <div class="row my-5 d-flex justify-content-around">
+
+        <!-- 1st client part -->
+
+        <div class="col-lg-3 col-12 p-4">
+          <div class="border border-2 p-5 mb-5">
+            <div class="text-center">
+              <img class="img-fluid mb-4" src="images/user-1.png" alt="man photo">
+
+              <!-- clients body part -->
+
+              <p class="text-secondary">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the year.</p>
+
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="far fa-star text-danger fw-light mb-4"></i>
+
+
+
+              <p class="text-primary fw-bolder">Mike Pompeo</p>
+              <p class="fw-bolder">Banker</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+        <!-- 2nd client part -->
+        <div class="col-lg-3 col-12 p-4">
+          <div class="border border-2 p-5 mb-5">
+            <div class="text-center">
+              <img class="img-fluid mb-4" src="images/user-2.png" alt="man photo">
+
+              <!-- clients body part -->
+
+              <p class="text-secondary">I want to thank you all.Great planning, We will look forward to seeing you next
+                year for the Giro d'Italia</p>
+
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="far fa-star text-danger fw-light mb-4"></i>
+
+
+
+              <p class="text-primary fw-bolder">Alaija Artoph</p>
+              <p class="fw-bolder">Banker</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- 3rd client part -->
+
+        <div class="col-lg-3 col-12 p-4">
+          <div class="border border-2 p-5 mb-5">
+            <div class="text-center">
+              <img class="img-fluid mb-4" src="images/user-3.jpg" alt="man photo">
+
+              <!-- clients body part -->
+
+              <p class="text-secondary">Italy Bike Tours were fantastic.Clive made us feel like this was more than just
+                a private area and it was great.</p>
+
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="fas fa-star text-danger"></i>
+              <i class="far fa-star text-danger fw-light"></i>
+              <i class="far fa-star text-danger fw-light mb-4"></i>
+
+
+
+              <p class="text-primary fw-bolder">Abdullah al Azad</p>
+              <p class="fw-bolder">Banker</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- FAQ PART -->
+
+    <section class="container">
+      <h1 class="text-center fw-bolder mt-5">Frequently Asked <span class="text-warning">Questions</span></h1>
+      <div class="row">
+        <!-- FAQ IMAGE PART START -->
+        <div class="col-lg-6 col-12 p-5">
+          <img class="img-fluid" src="images/faq.png" alt="">
+
+        </div>
+      
+
+
+        <!-- Question part start -->
+        <div class="col-lg-6 col-12 p-5">
+
+
+
+
+
+          <div class="accordion" id="accordionExample">
+
+            <!-- 1st Q-->
+
+            <div class="accordion-item mb-4 border border-1">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <h5>What are the most important things I should
+                    know about riding a bike?</h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body text-secondary">
+                  <p><strong>Safety First! Always obey the rules of the road.</strong> Obey all traffic signals, signs,
+                    and
+                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a
+                    more focused and legally compliant bike rider.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2nd Q -->
+
+            <div class="accordion-item mb-4 border border-1">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>How can I tell if my helmet is old and I need a new one?</h5>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body text-secondary">
+                  <p><strong>Bear in mind that</strong> if the helmet did its job most people would tell you that they
+                    did not even hit their head, or did not hit their head that hard. And the thin shells on most
+                    helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any
+                    foam crush at all, replace the helmet.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3rd Q -->
+
+            <div class="accordion-item mb-4 border border-1">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5>My bike has been in storage is it safe to ride?</h5>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body text-secondary">
+                  <p><strong>Leaving your bike outside for a day or two won't do major damage.</strong> You may see
+                    signs of rust after a week of neglect. After one month in bad conditions, your beloved bike parts
+                    will start to degrade.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4th question -->
+
+            <div class="accordion-item mb-4 border border-1">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h5>What rules should I follow when riding my bike?</h5>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body text-secondary">
+                  <p><strong>Be visible at all times.</strong>Wear bright and visible clothes. Reflective stripes ads
+                    viability. Always stay out of blind zones. Alert other drivers before entering their blind zone.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+
+
+      </div>
+
+
+
+    </section>
+
+    <!--bonus section start-->
+
+    <section class="container-fluid text-center py-4 ms-1 mt-4 bg-danger bg-gradient" id="contact">
+      <h2 class="display-4 pb-4 my-4 text-light">Get in touch with us today!</h2>
+      <p class="lead pb-3  text-light">Send us a message and we will get back to 
+      you as soon as possible.</p>
+      <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact us</a>
+   </section>
+
+   <footer class="py-3 bg-light">
+    <div class="container">
+       <p class="text-center fs-3"><i class=" fs-3 text-primary fab fa-twitter-square"></i> <i class=" fs-3 text-orange fab fa-facebook-square"></i>
+         <i class=" fs-3 text-danger fab fa-instagram"></i>Copy
+        right &copy; Honda CPR Consultancy 2021</p>
+    </div>
+ </footer>
+
+
+
+ 
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
